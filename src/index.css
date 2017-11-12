@@ -1,3 +1,11 @@
+:root {
+  --dark: #000;
+  --dark-purple: #3d2645;
+  --purple: #832161;
+  --pink: #da4167;
+  --light: #f0eff4;
+}
+
 body {
   margin: 0;
   padding: 0;
