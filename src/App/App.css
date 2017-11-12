@@ -1,3 +1,118 @@
 .App {
-  background-color: var(--dark);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas:
+    "stdout stdout stdout stdout"
+    "clear plus-minus percent divide"
+    "seven eight nine multiply"
+    "four five six subtract"
+    "one two three add"
+    "zero zero decimal equals";
+  margin: 1rem auto;
+  width: 60vw;
+  height: 80vw;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem var(--dark-purple);
+  border-radius: 0.4rem;
+}
+
+.button {
+  width: auto;
+  transition: 300ms;
+  font-size: 5vw;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--dark-purple);
+  color: var(--light);
+}
+
+.number {
+  background-color: var(--light);
+}
+
+.command {
+  background-color: var(--pink);
+}
+
+.zero {
+  grid-area: zero;
+}
+
+.zero-inner {
+  width: 50%;
+  border: none;
+}
+
+.spacer {
+  width: 50%;
+}
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+}
+.six {
+  grid-area: six;
+}
+.seven {
+  grid-area: seven;
+}
+.eight {
+  grid-area: eight;
+}
+.nine {
+  grid-area: nine;
+}
+
+.multiply {
+  grid-area: multiply;
+}
+.divide {
+  grid-area: divide;
+}
+.add {
+  grid-area: add;
+}
+.subtract {
+  grid-area: subtract;
+}
+.equals {
+  grid-area: equals;
+}
+.clear {
+  grid-area: clear;
+}
+.plus-minus {
+  grid-area: plus-minus;
+}
+.decimal {
+  grid-area: decimal;
+}
+.percent {
+  grid-area: percent;
+}
+
+.stdout {
+  grid-area: stdout;
+  flex-direction: row-reverse;
+  background-color: var(--purple);
+  color: var(--light);
+  font-size: 10vw;
+  padding: 1rem;
 }
