@@ -30,6 +30,11 @@ const OPERATORS = [
   { operation: "percent", symbol: "%" },
 ]
 
+const flex = { flex: true }
+const itemsCenter = { "items-center": true }
+const justifyCenter = { "justify-center": true }
+const flexCenterCenter = cx(flex, itemsCenter, justifyCenter)
+
 class App extends Component {
   constructor(props) {
     super(props)
@@ -39,29 +44,15 @@ class App extends Component {
   }
 
   render() {
-    const className = cx({
-      App: true,
-    })
+    const className = cx("App")
 
     const numberCells = NUMBERS.map((number, index) => {
       const isZero = number === "zero"
 
-      const className = cx({
-        flex: true,
-        "items-center": true,
-        "justify-center": true,
-        [number]: true,
-        number: true,
-        button: true,
-      })
+      const className = cx(flexCenterCenter, number, "number", "button")
 
       if (isZero) {
-        const zeroClassName = cx({
-          "zero-inner": true,
-          flex: true,
-          "items-center": true,
-          "justify-center": true,
-        })
+        const zeroClassName = cx(flexCenterCenter, "zero-inner")
 
         return (
           <div className={className} key={number}>
@@ -79,14 +70,12 @@ class App extends Component {
     })
 
     const operatorCells = OPERATORS.map(operator => {
-      const className = cx({
-        flex: true,
-        "items-center": true,
-        "justify-center": true,
-        [operator.operation]: true,
-        button: true,
-        command: true,
-      })
+      const className = cx(
+        flexCenterCenter,
+        operator.operation,
+        "button",
+        "command"
+      )
 
       return (
         <article className={className} key={operator.operation}>
@@ -95,11 +84,7 @@ class App extends Component {
       )
     })
 
-    const stdoutClassName = cx({
-      stdout: true,
-      flex: true,
-      "items-center": true,
-    })
+    const stdoutClassName = cx(flex, itemsCenter, "stdout")
 
     return (
       <div className={className}>

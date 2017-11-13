@@ -10,10 +10,14 @@
     "one two three add"
     "zero zero decimal equals";
   margin: 1rem auto;
-  width: 60vw;
-  height: 80vw;
+  width: 50vw;
+  height: 60vw;
+  max-height: 90vh;
   box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem var(--dark-purple);
   border-radius: 0.4rem;
+  grid-gap: 1vw;
+  padding: 1vw;
+  background-color: var(--dark);
 }
 
 .button {
@@ -33,7 +37,8 @@
 }
 
 .number {
-  background-color: var(--light);
+  background-color: var(--purple);
+  color: var(--light);
 }
 
 .command {
@@ -97,6 +102,7 @@
 }
 .clear {
   grid-area: clear;
+  font-size: 3vw;
 }
 .plus-minus {
   grid-area: plus-minus;
@@ -111,7 +117,7 @@
 .stdout {
   grid-area: stdout;
   flex-direction: row-reverse;
-  background-color: var(--purple);
+  background-color: var(--dark);
   color: var(--light);
   font-size: 10vw;
   padding: 1rem;
