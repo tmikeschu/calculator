@@ -75,7 +75,7 @@ class App extends Component {
         return (
           <div {...props}>
             <article className={zeroClassName}>0</article>
-            <div className="spacer" />
+            <div className="col6" />
           </div>
         )
       }

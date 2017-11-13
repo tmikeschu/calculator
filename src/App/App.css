@@ -1,3 +1,6 @@
+@import "./numbers.css";
+@import "./commands.css";
+
 .App {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -34,84 +37,6 @@
 .button:focus {
   background-color: var(--dark-purple);
   color: var(--light);
-}
-
-.number {
-  background-color: var(--purple);
-  color: var(--light);
-}
-
-.command {
-  background-color: var(--pink);
-}
-
-.zero {
-  grid-area: zero;
-}
-
-.zero-inner {
-  width: 50%;
-  border: none;
-}
-
-.spacer {
-  width: 50%;
-}
-.one {
-  grid-area: one;
-}
-.two {
-  grid-area: two;
-}
-.three {
-  grid-area: three;
-}
-.four {
-  grid-area: four;
-}
-.five {
-  grid-area: five;
-}
-.six {
-  grid-area: six;
-}
-.seven {
-  grid-area: seven;
-}
-.eight {
-  grid-area: eight;
-}
-.nine {
-  grid-area: nine;
-}
-
-.multiply {
-  grid-area: multiply;
-}
-.divide {
-  grid-area: divide;
-}
-.add {
-  grid-area: add;
-}
-.subtract {
-  grid-area: subtract;
-}
-.equals {
-  grid-area: equals;
-}
-.clear {
-  grid-area: clear;
-  font-size: 3vw;
-}
-.plus-minus {
-  grid-area: plus-minus;
-}
-.decimal {
-  grid-area: decimal;
-}
-.percent {
-  grid-area: percent;
 }
 
 .stdout {

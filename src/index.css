@@ -31,3 +31,7 @@ body {
 .justify-center {
   justify-content: center;
 }
+
+.col6 {
+  width: 50%;
+}

@@ -1,0 +1,40 @@
+.command {
+  background-color: var(--pink);
+}
+
+.multiply {
+  grid-area: multiply;
+}
+
+.divide {
+  grid-area: divide;
+}
+
+.add {
+  grid-area: add;
+}
+
+.subtract {
+  grid-area: subtract;
+}
+
+.equals {
+  grid-area: equals;
+}
+
+.button.clear {
+  grid-area: clear;
+  font-size: 3vw;
+}
+
+.plus-minus {
+  grid-area: plus-minus;
+}
+
+.decimal {
+  grid-area: decimal;
+}
+
+.percent {
+  grid-area: percent;
+}
