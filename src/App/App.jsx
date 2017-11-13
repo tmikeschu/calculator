@@ -18,16 +18,16 @@ const NUMBERS = [
   "nine",
 ]
 
-const OPERATORS = [
-  { operation: "multiply", symbol: "×" },
-  { operation: "divide", symbol: "÷" },
-  { operation: "add", symbol: "+" },
-  { operation: "subtract", symbol: "-" },
-  { operation: "clear", symbol: "A/C" },
-  { operation: "equals", symbol: "=" },
-  { operation: "plus-minus", symbol: "±" },
-  { operation: "decimal", symbol: "." },
-  { operation: "percent", symbol: "%" },
+const COMMANDS = [
+  { name: "multiply", symbol: "×" },
+  { name: "divide", symbol: "÷" },
+  { name: "add", symbol: "+" },
+  { name: "subtract", symbol: "-" },
+  { name: "clear", symbol: "A/C" },
+  { name: "equals", symbol: "=" },
+  { name: "plus-minus", symbol: "±" },
+  { name: "decimal", symbol: "." },
+  { name: "percent", symbol: "%" },
 ]
 
 const flex = { flex: true }
@@ -39,8 +39,20 @@ class App extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      stdout: 0,
+      stdout: "0",
     }
+  }
+
+  handleNumberClick = number => () => {
+    this.setState(({ stdout: prevStdout }) => {
+      const stdout =
+        prevStdout === "0" ? String(number) : prevStdout + String(number)
+      return { stdout }
+    })
+  }
+
+  handleClearClick = () => {
+    this.setState({ stdout: "0" })
   }
 
   render() {
@@ -51,37 +63,39 @@ class App extends Component {
 
       const className = cx(flexCenterCenter, number, "number", "button")
 
+      const props = {
+        className,
+        key: number,
+        onClick: this.handleNumberClick(index),
+      }
+
       if (isZero) {
         const zeroClassName = cx(flexCenterCenter, "zero-inner")
 
         return (
-          <div className={className} key={number}>
+          <div {...props}>
             <article className={zeroClassName}>0</article>
             <div className="spacer" />
           </div>
         )
       }
 
-      return (
-        <article className={className} key={number}>
-          {index}
-        </article>
-      )
+      return <article {...props}>{index}</article>
     })
 
-    const operatorCells = OPERATORS.map(operator => {
-      const className = cx(
-        flexCenterCenter,
-        operator.operation,
-        "button",
-        "command"
-      )
+    const commandCells = COMMANDS.map(({ name, symbol }) => {
+      const className = cx(flexCenterCenter, name, "button", "command")
 
-      return (
-        <article className={className} key={operator.operation}>
-          {operator.symbol}
-        </article>
-      )
+      const capitalName = name[0].toUpperCase() + name.slice(1)
+      const onClick = this[`handle${capitalName}Click`]
+
+      const props = {
+        className,
+        key: name,
+        onClick,
+      }
+
+      return <article {...props}>{symbol}</article>
     })
 
     const stdoutClassName = cx(flex, itemsCenter, "stdout")
@@ -90,7 +104,7 @@ class App extends Component {
       <div className={className}>
         <article className={stdoutClassName}>{this.state.stdout}</article>
         {numberCells}
-        {operatorCells}
+        {commandCells}
       </div>
     )
   }
