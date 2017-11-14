@@ -1,6 +1,8 @@
 import React, { Component } from "react"
 import classNames from "classnames/bind"
 
+import "./numbers.css"
+import "./commands.css"
 import styles from "./App.css"
 
 const cx = classNames.bind(styles)
