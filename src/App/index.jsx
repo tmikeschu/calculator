@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import classNames from "classnames/bind"
 
+import * as ops from "./utils/operations"
 import "./numbers.css"
 import "./commands.css"
 import styles from "./App.css"
@@ -45,11 +46,6 @@ class App extends Component {
     readyForNextOperand: true,
   }
 
-  static add = (a, b) => parseFloat(a) + parseFloat(b)
-  static subtract = (a, b) => parseFloat(a) - parseFloat(b)
-  static multiply = (a, b) => parseFloat(a) * parseFloat(b)
-  static divide = (a, b) => parseFloat(a) / parseFloat(b)
-
   constructor(props) {
     super(props)
     this.state = App.initialState
@@ -77,7 +73,7 @@ class App extends Component {
         const isEquals = command === "equals"
         const result = String(
           prevResult
-            ? App[prevCommand || command](prevResult, prevStdout)
+            ? ops[prevCommand || command](prevResult, prevStdout)
             : prevStdout
         )
         const stdout = result

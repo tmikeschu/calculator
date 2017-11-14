@@ -14,32 +14,6 @@ describe("<App />", () => {
     expect(container).toBeTruthy()
   })
 
-  describe("static math functions", () => {
-    describe("add", () => {
-      it("adds two numbers", () => {
-        expect(App.add(1, 2)).toEqual(3)
-      })
-    })
-
-    describe("subtract", () => {
-      it("subtracts the second number from the first", () => {
-        expect(App.subtract(1, 2)).toEqual(-1)
-      })
-    })
-
-    describe("divide", () => {
-      it("subtracts the second number from the first", () => {
-        expect(App.divide(6, 3)).toEqual(2)
-      })
-    })
-
-    describe("multiply", () => {
-      it("subtracts the second number from the first", () => {
-        expect(App.multiply(6, 3)).toEqual(18)
-      })
-    })
-  })
-
   describe(".handleNumberClick", () => {
     const curry = container.handleNumberClick(1)
 
