@@ -1,7 +1,11 @@
-export const add = (a, b) => parseFloat(a) + parseFloat(b)
+export const add = (a, ...args) =>
+  args.reduce((result, arg) => parseFloat(result) + parseFloat(arg), a)
 
-export const subtract = (a, b) => parseFloat(a) - parseFloat(b)
+export const subtract = (a, ...args) =>
+  args.reduce((result, arg) => parseFloat(result) - parseFloat(arg), a)
 
-export const multiply = (a, b) => parseFloat(a) * parseFloat(b)
+export const divide = (a, ...args) =>
+  args.reduce((result, arg) => parseFloat(result) / parseFloat(arg), a)
 
-export const divide = (a, b) => parseFloat(a) / parseFloat(b)
+export const multiply = (a, ...args) =>
+  args.reduce((result, arg) => parseFloat(result) * parseFloat(arg), a)
