@@ -25,5 +25,12 @@
   },
   "lint-staged": {
     "*.{js,json,css,jsx}": ["prettier --write", "git add"]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/App/**/*.{js,jsx}",
+      "!<rootDir>/node_modules/",
+      "!<rootDir>/path/to/dir/"
+    ]
   }
 }
