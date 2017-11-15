@@ -24,7 +24,7 @@
 
 .button.clear {
   grid-area: clear;
-  font-size: 3vw;
+  font-size: 4vmin;
 }
 
 .plus-minus {

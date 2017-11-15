@@ -10,20 +10,20 @@
     "one two three add"
     "zero zero decimal equals";
   margin: 1rem auto;
-  width: 50vw;
-  height: 60vw;
-  max-height: 90vh;
+  width: 60vmin;
+  height: 80vmin;
+  max-height: 90vmin;
   box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem var(--dark-purple);
   border-radius: 0.4rem;
-  grid-gap: 1vw;
-  padding: 1vw;
+  grid-gap: 1vmin;
+  padding: 1vmin;
   background-color: var(--dark);
 }
 
 .button {
   width: auto;
   transition: 300ms;
-  font-size: 5vw;
+  font-size: 5vmin;
 }
 
 .button:hover {
@@ -41,6 +41,6 @@
   flex-direction: row-reverse;
   background-color: var(--dark);
   color: var(--light);
-  font-size: 10vw;
+  font-size: 10vmin;
   padding: 1rem;
 }
