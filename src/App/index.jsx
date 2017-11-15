@@ -69,7 +69,12 @@ class App extends Component {
 
   handleCommandClick = command => () => {
     this.setState(
-      ({ result: prevResult, stdout: prevStdout, command: prevCommand }) => {
+      ({
+        result: prevResult,
+        stdout: prevStdout,
+        command: prevCommand,
+        readyForNextOperand,
+      }) => {
         const isEquals = command === "equals"
         const result = String(
           prevResult
@@ -79,6 +84,10 @@ class App extends Component {
         const stdout = result
         const nextResult = isEquals ? "" : result
         const nextCommand = isEquals ? "" : command
+
+        if (readyForNextOperand) {
+          return { command: nextCommand }
+        }
 
         return {
           command: nextCommand,

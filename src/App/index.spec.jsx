@@ -67,6 +67,10 @@ describe("<App />", () => {
   })
 
   describe(".handleCommandClick", () => {
+    beforeEach(() => {
+      wrapper.setState({ readyForNextOperand: false })
+    })
+
     const curry = container.handleCommandClick("add")
 
     it("takes a command name and returns a function", () => {
@@ -104,6 +108,22 @@ describe("<App />", () => {
         curry()
         expect(container.state.result).toEqual("20")
         expect(container.state.stdout).toEqual("20")
+      })
+    })
+
+    describe("when readyForNextOperand is true", () => {
+      it("just updates the command", () => {
+        wrapper.setState({
+          result: "12",
+          stdout: "8",
+          readyForNextOperand: true,
+          command: "multiply",
+        })
+        const curry = container.handleCommandClick("add")
+        curry()
+        expect(container.state.result).toEqual("12")
+        expect(container.state.stdout).toEqual("8")
+        expect(container.state.command).toEqual("add")
       })
     })
 
