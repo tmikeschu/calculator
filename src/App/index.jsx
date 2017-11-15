@@ -85,7 +85,7 @@ class App extends Component {
         const nextResult = isEquals ? "" : result
         const nextCommand = isEquals ? "" : command
 
-        if (readyForNextOperand) {
+        if (readyForNextOperand && !isEquals) {
           return { command: nextCommand }
         }
 
