@@ -90,6 +90,16 @@ class App extends Component {
     )
   }
 
+  handlePlusMinusClick = () => () => {
+    this.setState(({ stdout, readyForNextOperand, result }) => {
+      const newValue = String(-parseFloat(stdout))
+      return {
+        stdout: newValue,
+        result: readyForNextOperand ? newValue : result,
+      }
+    })
+  }
+
   render() {
     const className = cx("App")
 

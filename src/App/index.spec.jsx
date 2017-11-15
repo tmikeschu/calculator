@@ -133,4 +133,39 @@ describe("<App />", () => {
       })
     })
   })
+
+  describe(".handlePlusMinusClick", () => {
+    const curry = container.handlePlusMinusClick()
+
+    it("returns a function", () => {
+      expect(curry).toBeInstanceOf(Function)
+    })
+
+    it("sets the stdout to the opposite sign", () => {
+      wrapper.setState({ stdout: "1" })
+      curry()
+
+      expect(container.state.stdout).toEqual("-1")
+    })
+
+    describe("when readyForNextOperand is true", () => {
+      it("sets the result to the new stdout", () => {
+        wrapper.setState({ stdout: "1", readyForNextOperand: true })
+        curry()
+
+        expect(container.state.stdout).toEqual("-1")
+        expect(container.state.result).toEqual("-1")
+      })
+    })
+
+    describe("when readyForNextOperand is false", () => {
+      it("leaves the result alone", () => {
+        wrapper.setState({ stdout: "1", readyForNextOperand: false })
+        curry()
+
+        expect(container.state.stdout).toEqual("-1")
+        expect(container.state.result).toEqual("")
+      })
+    })
+  })
 })
