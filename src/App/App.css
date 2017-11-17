@@ -38,9 +38,8 @@
 
 .stdout {
   grid-area: stdout;
-  flex-direction: row-reverse;
+  justify-content: flex-end;
   background-color: var(--dark);
   color: var(--light);
-  font-size: 10vmin;
   padding: 1rem;
 }

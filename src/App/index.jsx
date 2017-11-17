@@ -151,9 +151,16 @@ class App extends Component {
 
     const stdoutClassName = cx(flex, itemsCenter, "stdout")
 
+    const { stdout } = this.state
+    const stdoutLength = stdout.length
+    const stdoutFontSize = stdoutLength > 9 ? 95 / stdoutLength : 10
+    const stdoutStyle = { fontSize: `${stdoutFontSize}vmin` }
+
     return (
       <div className={className}>
-        <article className={stdoutClassName}>{this.state.stdout}</article>
+        <article className={stdoutClassName} style={stdoutStyle}>
+          {this.state.stdout}
+        </article>
         {numberCells}
         {commandCells}
       </div>
