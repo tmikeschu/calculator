@@ -188,4 +188,40 @@ describe("<App />", () => {
       })
     })
   })
+
+  describe(".handleDecimalClick", () => {
+    const curry = container.handleDecimalClick()
+
+    it("returns a function", () => {
+      expect(curry).toBeInstanceOf(Function)
+    })
+
+    it("adds a decimal to stdout", () => {
+      wrapper.setState({ stdout: "1" })
+      curry()
+      expect(container.state.stdout).toEqual("1.")
+    })
+
+    describe("when stdout already has a decimal", () => {
+      it("does not add a decimal", () => {
+        wrapper.setState({ stdout: "1." })
+        curry()
+        expect(container.state.stdout).toEqual("1.")
+      })
+    })
+  })
+
+  describe("when stdout length is greater than 9", () => {
+    it("renders calculated font size", () => {
+      wrapper.setState({ stdout: "1234567890" })
+      expect(wrapper).toMatchSnapshot()
+    })
+  })
+
+  describe("when stdout length is less than or equal to 9", () => {
+    it("renders a fixed font size", () => {
+      wrapper.setState({ stdout: "12345678" })
+      expect(wrapper).toMatchSnapshot()
+    })
+  })
 })

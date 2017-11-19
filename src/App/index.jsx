@@ -109,6 +109,15 @@ class App extends Component {
     })
   }
 
+  handleDecimalClick = () => () => {
+    this.setState(({ stdout }) => {
+      const hasDecimal = stdout.includes(".")
+      return {
+        stdout: hasDecimal ? stdout : stdout + ".",
+      }
+    })
+  }
+
   render() {
     const className = cx("App")
 

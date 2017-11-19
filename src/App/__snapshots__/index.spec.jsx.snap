@@ -1,0 +1,1825 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> when stdout length is greater than 9 renders calculated font size 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <article
+          className="flex items-center stdout"
+          style={
+                    Object {
+                              "fontSize": "9.5vmin",
+                            }
+          }
+>
+          1234567890
+</article>,
+        Array [
+          <div
+            className="flex items-center justify-center zero number button"
+            onClick={[Function]}
+>
+            <article
+                        className="flex items-center justify-center zero-inner"
+            >
+                        0
+            </article>
+            <div
+                        className="col6"
+            />
+</div>,
+          <article
+            className="flex items-center justify-center one number button"
+            onClick={[Function]}
+>
+            1
+</article>,
+          <article
+            className="flex items-center justify-center two number button"
+            onClick={[Function]}
+>
+            2
+</article>,
+          <article
+            className="flex items-center justify-center three number button"
+            onClick={[Function]}
+>
+            3
+</article>,
+          <article
+            className="flex items-center justify-center four number button"
+            onClick={[Function]}
+>
+            4
+</article>,
+          <article
+            className="flex items-center justify-center five number button"
+            onClick={[Function]}
+>
+            5
+</article>,
+          <article
+            className="flex items-center justify-center six number button"
+            onClick={[Function]}
+>
+            6
+</article>,
+          <article
+            className="flex items-center justify-center seven number button"
+            onClick={[Function]}
+>
+            7
+</article>,
+          <article
+            className="flex items-center justify-center eight number button"
+            onClick={[Function]}
+>
+            8
+</article>,
+          <article
+            className="flex items-center justify-center nine number button"
+            onClick={[Function]}
+>
+            9
+</article>,
+        ],
+        Array [
+          <article
+            className="flex items-center justify-center multiply button command"
+            onClick={[Function]}
+>
+            ×
+</article>,
+          <article
+            className="flex items-center justify-center divide button command"
+            onClick={[Function]}
+>
+            ÷
+</article>,
+          <article
+            className="flex items-center justify-center add button command"
+            onClick={[Function]}
+>
+            +
+</article>,
+          <article
+            className="flex items-center justify-center subtract button command"
+            onClick={[Function]}
+>
+            -
+</article>,
+          <article
+            className="flex items-center justify-center clear button command"
+            onClick={[Function]}
+>
+            A/C
+</article>,
+          <article
+            className="flex items-center justify-center equals button command"
+            onClick={[Function]}
+>
+            =
+</article>,
+          <article
+            className="flex items-center justify-center plus-minus button command"
+            onClick={[Function]}
+>
+            ±
+</article>,
+          <article
+            className="flex items-center justify-center decimal button command"
+            onClick={[Function]}
+>
+            .
+</article>,
+          <article
+            className="flex items-center justify-center percent button command"
+            onClick={undefined}
+>
+            %
+</article>,
+        ],
+      ],
+      "className": "App",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "1234567890",
+          "className": "flex items-center stdout",
+          "style": Object {
+            "fontSize": "9.5vmin",
+          },
+        },
+        "ref": null,
+        "rendered": "1234567890",
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "zero",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <article
+              className="flex items-center justify-center zero-inner"
+>
+              0
+</article>,
+            <div
+              className="col6"
+/>,
+          ],
+          "className": "flex items-center justify-center zero number button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "0",
+              "className": "flex items-center justify-center zero-inner",
+            },
+            "ref": null,
+            "rendered": "0",
+            "type": "article",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "col6",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "one",
+        "nodeType": "host",
+        "props": Object {
+          "children": 1,
+          "className": "flex items-center justify-center one number button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": 1,
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "two",
+        "nodeType": "host",
+        "props": Object {
+          "children": 2,
+          "className": "flex items-center justify-center two number button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": 2,
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "three",
+        "nodeType": "host",
+        "props": Object {
+          "children": 3,
+          "className": "flex items-center justify-center three number button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": 3,
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "four",
+        "nodeType": "host",
+        "props": Object {
+          "children": 4,
+          "className": "flex items-center justify-center four number button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": 4,
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "five",
+        "nodeType": "host",
+        "props": Object {
+          "children": 5,
+          "className": "flex items-center justify-center five number button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": 5,
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "six",
+        "nodeType": "host",
+        "props": Object {
+          "children": 6,
+          "className": "flex items-center justify-center six number button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": 6,
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "seven",
+        "nodeType": "host",
+        "props": Object {
+          "children": 7,
+          "className": "flex items-center justify-center seven number button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": 7,
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "eight",
+        "nodeType": "host",
+        "props": Object {
+          "children": 8,
+          "className": "flex items-center justify-center eight number button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": 8,
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "nine",
+        "nodeType": "host",
+        "props": Object {
+          "children": 9,
+          "className": "flex items-center justify-center nine number button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": 9,
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "multiply",
+        "nodeType": "host",
+        "props": Object {
+          "children": "×",
+          "className": "flex items-center justify-center multiply button command",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "×",
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "divide",
+        "nodeType": "host",
+        "props": Object {
+          "children": "÷",
+          "className": "flex items-center justify-center divide button command",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "÷",
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "add",
+        "nodeType": "host",
+        "props": Object {
+          "children": "+",
+          "className": "flex items-center justify-center add button command",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "+",
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "subtract",
+        "nodeType": "host",
+        "props": Object {
+          "children": "-",
+          "className": "flex items-center justify-center subtract button command",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "-",
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "clear",
+        "nodeType": "host",
+        "props": Object {
+          "children": "A/C",
+          "className": "flex items-center justify-center clear button command",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "A/C",
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "equals",
+        "nodeType": "host",
+        "props": Object {
+          "children": "=",
+          "className": "flex items-center justify-center equals button command",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "=",
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "plus-minus",
+        "nodeType": "host",
+        "props": Object {
+          "children": "±",
+          "className": "flex items-center justify-center plus-minus button command",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "±",
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "decimal",
+        "nodeType": "host",
+        "props": Object {
+          "children": ".",
+          "className": "flex items-center justify-center decimal button command",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": ".",
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "percent",
+        "nodeType": "host",
+        "props": Object {
+          "children": "%",
+          "className": "flex items-center justify-center percent button command",
+          "onClick": undefined,
+        },
+        "ref": null,
+        "rendered": "%",
+        "type": "article",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <article
+            className="flex items-center stdout"
+            style={
+                        Object {
+                                    "fontSize": "9.5vmin",
+                                  }
+            }
+>
+            1234567890
+</article>,
+          Array [
+            <div
+              className="flex items-center justify-center zero number button"
+              onClick={[Function]}
+>
+              <article
+                            className="flex items-center justify-center zero-inner"
+              >
+                            0
+              </article>
+              <div
+                            className="col6"
+              />
+</div>,
+            <article
+              className="flex items-center justify-center one number button"
+              onClick={[Function]}
+>
+              1
+</article>,
+            <article
+              className="flex items-center justify-center two number button"
+              onClick={[Function]}
+>
+              2
+</article>,
+            <article
+              className="flex items-center justify-center three number button"
+              onClick={[Function]}
+>
+              3
+</article>,
+            <article
+              className="flex items-center justify-center four number button"
+              onClick={[Function]}
+>
+              4
+</article>,
+            <article
+              className="flex items-center justify-center five number button"
+              onClick={[Function]}
+>
+              5
+</article>,
+            <article
+              className="flex items-center justify-center six number button"
+              onClick={[Function]}
+>
+              6
+</article>,
+            <article
+              className="flex items-center justify-center seven number button"
+              onClick={[Function]}
+>
+              7
+</article>,
+            <article
+              className="flex items-center justify-center eight number button"
+              onClick={[Function]}
+>
+              8
+</article>,
+            <article
+              className="flex items-center justify-center nine number button"
+              onClick={[Function]}
+>
+              9
+</article>,
+          ],
+          Array [
+            <article
+              className="flex items-center justify-center multiply button command"
+              onClick={[Function]}
+>
+              ×
+</article>,
+            <article
+              className="flex items-center justify-center divide button command"
+              onClick={[Function]}
+>
+              ÷
+</article>,
+            <article
+              className="flex items-center justify-center add button command"
+              onClick={[Function]}
+>
+              +
+</article>,
+            <article
+              className="flex items-center justify-center subtract button command"
+              onClick={[Function]}
+>
+              -
+</article>,
+            <article
+              className="flex items-center justify-center clear button command"
+              onClick={[Function]}
+>
+              A/C
+</article>,
+            <article
+              className="flex items-center justify-center equals button command"
+              onClick={[Function]}
+>
+              =
+</article>,
+            <article
+              className="flex items-center justify-center plus-minus button command"
+              onClick={[Function]}
+>
+              ±
+</article>,
+            <article
+              className="flex items-center justify-center decimal button command"
+              onClick={[Function]}
+>
+              .
+</article>,
+            <article
+              className="flex items-center justify-center percent button command"
+              onClick={undefined}
+>
+              %
+</article>,
+          ],
+        ],
+        "className": "App",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "1234567890",
+            "className": "flex items-center stdout",
+            "style": Object {
+              "fontSize": "9.5vmin",
+            },
+          },
+          "ref": null,
+          "rendered": "1234567890",
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "zero",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <article
+                className="flex items-center justify-center zero-inner"
+>
+                0
+</article>,
+              <div
+                className="col6"
+/>,
+            ],
+            "className": "flex items-center justify-center zero number button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "0",
+                "className": "flex items-center justify-center zero-inner",
+              },
+              "ref": null,
+              "rendered": "0",
+              "type": "article",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "col6",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "one",
+          "nodeType": "host",
+          "props": Object {
+            "children": 1,
+            "className": "flex items-center justify-center one number button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": 1,
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "two",
+          "nodeType": "host",
+          "props": Object {
+            "children": 2,
+            "className": "flex items-center justify-center two number button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": 2,
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "three",
+          "nodeType": "host",
+          "props": Object {
+            "children": 3,
+            "className": "flex items-center justify-center three number button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": 3,
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "four",
+          "nodeType": "host",
+          "props": Object {
+            "children": 4,
+            "className": "flex items-center justify-center four number button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": 4,
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "five",
+          "nodeType": "host",
+          "props": Object {
+            "children": 5,
+            "className": "flex items-center justify-center five number button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": 5,
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "six",
+          "nodeType": "host",
+          "props": Object {
+            "children": 6,
+            "className": "flex items-center justify-center six number button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": 6,
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "seven",
+          "nodeType": "host",
+          "props": Object {
+            "children": 7,
+            "className": "flex items-center justify-center seven number button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": 7,
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "eight",
+          "nodeType": "host",
+          "props": Object {
+            "children": 8,
+            "className": "flex items-center justify-center eight number button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": 8,
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "nine",
+          "nodeType": "host",
+          "props": Object {
+            "children": 9,
+            "className": "flex items-center justify-center nine number button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": 9,
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "multiply",
+          "nodeType": "host",
+          "props": Object {
+            "children": "×",
+            "className": "flex items-center justify-center multiply button command",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "×",
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "divide",
+          "nodeType": "host",
+          "props": Object {
+            "children": "÷",
+            "className": "flex items-center justify-center divide button command",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "÷",
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "add",
+          "nodeType": "host",
+          "props": Object {
+            "children": "+",
+            "className": "flex items-center justify-center add button command",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "+",
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "subtract",
+          "nodeType": "host",
+          "props": Object {
+            "children": "-",
+            "className": "flex items-center justify-center subtract button command",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "-",
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "clear",
+          "nodeType": "host",
+          "props": Object {
+            "children": "A/C",
+            "className": "flex items-center justify-center clear button command",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "A/C",
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "equals",
+          "nodeType": "host",
+          "props": Object {
+            "children": "=",
+            "className": "flex items-center justify-center equals button command",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "=",
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "plus-minus",
+          "nodeType": "host",
+          "props": Object {
+            "children": "±",
+            "className": "flex items-center justify-center plus-minus button command",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "±",
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "decimal",
+          "nodeType": "host",
+          "props": Object {
+            "children": ".",
+            "className": "flex items-center justify-center decimal button command",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": ".",
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "percent",
+          "nodeType": "host",
+          "props": Object {
+            "children": "%",
+            "className": "flex items-center justify-center percent button command",
+            "onClick": undefined,
+          },
+          "ref": null,
+          "rendered": "%",
+          "type": "article",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<App /> when stdout length is less than or equal to 9 renders a fixed font size 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <article
+          className="flex items-center stdout"
+          style={
+                    Object {
+                              "fontSize": "10vmin",
+                            }
+          }
+>
+          12345678
+</article>,
+        Array [
+          <div
+            className="flex items-center justify-center zero number button"
+            onClick={[Function]}
+>
+            <article
+                        className="flex items-center justify-center zero-inner"
+            >
+                        0
+            </article>
+            <div
+                        className="col6"
+            />
+</div>,
+          <article
+            className="flex items-center justify-center one number button"
+            onClick={[Function]}
+>
+            1
+</article>,
+          <article
+            className="flex items-center justify-center two number button"
+            onClick={[Function]}
+>
+            2
+</article>,
+          <article
+            className="flex items-center justify-center three number button"
+            onClick={[Function]}
+>
+            3
+</article>,
+          <article
+            className="flex items-center justify-center four number button"
+            onClick={[Function]}
+>
+            4
+</article>,
+          <article
+            className="flex items-center justify-center five number button"
+            onClick={[Function]}
+>
+            5
+</article>,
+          <article
+            className="flex items-center justify-center six number button"
+            onClick={[Function]}
+>
+            6
+</article>,
+          <article
+            className="flex items-center justify-center seven number button"
+            onClick={[Function]}
+>
+            7
+</article>,
+          <article
+            className="flex items-center justify-center eight number button"
+            onClick={[Function]}
+>
+            8
+</article>,
+          <article
+            className="flex items-center justify-center nine number button"
+            onClick={[Function]}
+>
+            9
+</article>,
+        ],
+        Array [
+          <article
+            className="flex items-center justify-center multiply button command"
+            onClick={[Function]}
+>
+            ×
+</article>,
+          <article
+            className="flex items-center justify-center divide button command"
+            onClick={[Function]}
+>
+            ÷
+</article>,
+          <article
+            className="flex items-center justify-center add button command"
+            onClick={[Function]}
+>
+            +
+</article>,
+          <article
+            className="flex items-center justify-center subtract button command"
+            onClick={[Function]}
+>
+            -
+</article>,
+          <article
+            className="flex items-center justify-center clear button command"
+            onClick={[Function]}
+>
+            A/C
+</article>,
+          <article
+            className="flex items-center justify-center equals button command"
+            onClick={[Function]}
+>
+            =
+</article>,
+          <article
+            className="flex items-center justify-center plus-minus button command"
+            onClick={[Function]}
+>
+            ±
+</article>,
+          <article
+            className="flex items-center justify-center decimal button command"
+            onClick={[Function]}
+>
+            .
+</article>,
+          <article
+            className="flex items-center justify-center percent button command"
+            onClick={undefined}
+>
+            %
+</article>,
+        ],
+      ],
+      "className": "App",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "12345678",
+          "className": "flex items-center stdout",
+          "style": Object {
+            "fontSize": "10vmin",
+          },
+        },
+        "ref": null,
+        "rendered": "12345678",
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "zero",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <article
+              className="flex items-center justify-center zero-inner"
+>
+              0
+</article>,
+            <div
+              className="col6"
+/>,
+          ],
+          "className": "flex items-center justify-center zero number button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "0",
+              "className": "flex items-center justify-center zero-inner",
+            },
+            "ref": null,
+            "rendered": "0",
+            "type": "article",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "col6",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "one",
+        "nodeType": "host",
+        "props": Object {
+          "children": 1,
+          "className": "flex items-center justify-center one number button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": 1,
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "two",
+        "nodeType": "host",
+        "props": Object {
+          "children": 2,
+          "className": "flex items-center justify-center two number button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": 2,
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "three",
+        "nodeType": "host",
+        "props": Object {
+          "children": 3,
+          "className": "flex items-center justify-center three number button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": 3,
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "four",
+        "nodeType": "host",
+        "props": Object {
+          "children": 4,
+          "className": "flex items-center justify-center four number button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": 4,
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "five",
+        "nodeType": "host",
+        "props": Object {
+          "children": 5,
+          "className": "flex items-center justify-center five number button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": 5,
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "six",
+        "nodeType": "host",
+        "props": Object {
+          "children": 6,
+          "className": "flex items-center justify-center six number button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": 6,
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "seven",
+        "nodeType": "host",
+        "props": Object {
+          "children": 7,
+          "className": "flex items-center justify-center seven number button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": 7,
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "eight",
+        "nodeType": "host",
+        "props": Object {
+          "children": 8,
+          "className": "flex items-center justify-center eight number button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": 8,
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "nine",
+        "nodeType": "host",
+        "props": Object {
+          "children": 9,
+          "className": "flex items-center justify-center nine number button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": 9,
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "multiply",
+        "nodeType": "host",
+        "props": Object {
+          "children": "×",
+          "className": "flex items-center justify-center multiply button command",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "×",
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "divide",
+        "nodeType": "host",
+        "props": Object {
+          "children": "÷",
+          "className": "flex items-center justify-center divide button command",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "÷",
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "add",
+        "nodeType": "host",
+        "props": Object {
+          "children": "+",
+          "className": "flex items-center justify-center add button command",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "+",
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "subtract",
+        "nodeType": "host",
+        "props": Object {
+          "children": "-",
+          "className": "flex items-center justify-center subtract button command",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "-",
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "clear",
+        "nodeType": "host",
+        "props": Object {
+          "children": "A/C",
+          "className": "flex items-center justify-center clear button command",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "A/C",
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "equals",
+        "nodeType": "host",
+        "props": Object {
+          "children": "=",
+          "className": "flex items-center justify-center equals button command",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "=",
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "plus-minus",
+        "nodeType": "host",
+        "props": Object {
+          "children": "±",
+          "className": "flex items-center justify-center plus-minus button command",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "±",
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "decimal",
+        "nodeType": "host",
+        "props": Object {
+          "children": ".",
+          "className": "flex items-center justify-center decimal button command",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": ".",
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": "percent",
+        "nodeType": "host",
+        "props": Object {
+          "children": "%",
+          "className": "flex items-center justify-center percent button command",
+          "onClick": undefined,
+        },
+        "ref": null,
+        "rendered": "%",
+        "type": "article",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <article
+            className="flex items-center stdout"
+            style={
+                        Object {
+                                    "fontSize": "10vmin",
+                                  }
+            }
+>
+            12345678
+</article>,
+          Array [
+            <div
+              className="flex items-center justify-center zero number button"
+              onClick={[Function]}
+>
+              <article
+                            className="flex items-center justify-center zero-inner"
+              >
+                            0
+              </article>
+              <div
+                            className="col6"
+              />
+</div>,
+            <article
+              className="flex items-center justify-center one number button"
+              onClick={[Function]}
+>
+              1
+</article>,
+            <article
+              className="flex items-center justify-center two number button"
+              onClick={[Function]}
+>
+              2
+</article>,
+            <article
+              className="flex items-center justify-center three number button"
+              onClick={[Function]}
+>
+              3
+</article>,
+            <article
+              className="flex items-center justify-center four number button"
+              onClick={[Function]}
+>
+              4
+</article>,
+            <article
+              className="flex items-center justify-center five number button"
+              onClick={[Function]}
+>
+              5
+</article>,
+            <article
+              className="flex items-center justify-center six number button"
+              onClick={[Function]}
+>
+              6
+</article>,
+            <article
+              className="flex items-center justify-center seven number button"
+              onClick={[Function]}
+>
+              7
+</article>,
+            <article
+              className="flex items-center justify-center eight number button"
+              onClick={[Function]}
+>
+              8
+</article>,
+            <article
+              className="flex items-center justify-center nine number button"
+              onClick={[Function]}
+>
+              9
+</article>,
+          ],
+          Array [
+            <article
+              className="flex items-center justify-center multiply button command"
+              onClick={[Function]}
+>
+              ×
+</article>,
+            <article
+              className="flex items-center justify-center divide button command"
+              onClick={[Function]}
+>
+              ÷
+</article>,
+            <article
+              className="flex items-center justify-center add button command"
+              onClick={[Function]}
+>
+              +
+</article>,
+            <article
+              className="flex items-center justify-center subtract button command"
+              onClick={[Function]}
+>
+              -
+</article>,
+            <article
+              className="flex items-center justify-center clear button command"
+              onClick={[Function]}
+>
+              A/C
+</article>,
+            <article
+              className="flex items-center justify-center equals button command"
+              onClick={[Function]}
+>
+              =
+</article>,
+            <article
+              className="flex items-center justify-center plus-minus button command"
+              onClick={[Function]}
+>
+              ±
+</article>,
+            <article
+              className="flex items-center justify-center decimal button command"
+              onClick={[Function]}
+>
+              .
+</article>,
+            <article
+              className="flex items-center justify-center percent button command"
+              onClick={undefined}
+>
+              %
+</article>,
+          ],
+        ],
+        "className": "App",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "12345678",
+            "className": "flex items-center stdout",
+            "style": Object {
+              "fontSize": "10vmin",
+            },
+          },
+          "ref": null,
+          "rendered": "12345678",
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "zero",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <article
+                className="flex items-center justify-center zero-inner"
+>
+                0
+</article>,
+              <div
+                className="col6"
+/>,
+            ],
+            "className": "flex items-center justify-center zero number button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "0",
+                "className": "flex items-center justify-center zero-inner",
+              },
+              "ref": null,
+              "rendered": "0",
+              "type": "article",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "col6",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "one",
+          "nodeType": "host",
+          "props": Object {
+            "children": 1,
+            "className": "flex items-center justify-center one number button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": 1,
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "two",
+          "nodeType": "host",
+          "props": Object {
+            "children": 2,
+            "className": "flex items-center justify-center two number button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": 2,
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "three",
+          "nodeType": "host",
+          "props": Object {
+            "children": 3,
+            "className": "flex items-center justify-center three number button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": 3,
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "four",
+          "nodeType": "host",
+          "props": Object {
+            "children": 4,
+            "className": "flex items-center justify-center four number button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": 4,
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "five",
+          "nodeType": "host",
+          "props": Object {
+            "children": 5,
+            "className": "flex items-center justify-center five number button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": 5,
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "six",
+          "nodeType": "host",
+          "props": Object {
+            "children": 6,
+            "className": "flex items-center justify-center six number button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": 6,
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "seven",
+          "nodeType": "host",
+          "props": Object {
+            "children": 7,
+            "className": "flex items-center justify-center seven number button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": 7,
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "eight",
+          "nodeType": "host",
+          "props": Object {
+            "children": 8,
+            "className": "flex items-center justify-center eight number button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": 8,
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "nine",
+          "nodeType": "host",
+          "props": Object {
+            "children": 9,
+            "className": "flex items-center justify-center nine number button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": 9,
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "multiply",
+          "nodeType": "host",
+          "props": Object {
+            "children": "×",
+            "className": "flex items-center justify-center multiply button command",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "×",
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "divide",
+          "nodeType": "host",
+          "props": Object {
+            "children": "÷",
+            "className": "flex items-center justify-center divide button command",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "÷",
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "add",
+          "nodeType": "host",
+          "props": Object {
+            "children": "+",
+            "className": "flex items-center justify-center add button command",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "+",
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "subtract",
+          "nodeType": "host",
+          "props": Object {
+            "children": "-",
+            "className": "flex items-center justify-center subtract button command",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "-",
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "clear",
+          "nodeType": "host",
+          "props": Object {
+            "children": "A/C",
+            "className": "flex items-center justify-center clear button command",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "A/C",
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "equals",
+          "nodeType": "host",
+          "props": Object {
+            "children": "=",
+            "className": "flex items-center justify-center equals button command",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "=",
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "plus-minus",
+          "nodeType": "host",
+          "props": Object {
+            "children": "±",
+            "className": "flex items-center justify-center plus-minus button command",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "±",
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "decimal",
+          "nodeType": "host",
+          "props": Object {
+            "children": ".",
+            "className": "flex items-center justify-center decimal button command",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": ".",
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": "percent",
+          "nodeType": "host",
+          "props": Object {
+            "children": "%",
+            "className": "flex items-center justify-center percent button command",
+            "onClick": undefined,
+          },
+          "ref": null,
+          "rendered": "%",
+          "type": "article",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
