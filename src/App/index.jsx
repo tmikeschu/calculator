@@ -118,6 +118,12 @@ class App extends Component {
     })
   }
 
+  handlePercentClick = () => () => {
+    this.setState(({ stdout }) => ({
+      stdout: String(ops.divide(stdout / 100)),
+    }))
+  }
+
   render() {
     const className = cx("App")
 

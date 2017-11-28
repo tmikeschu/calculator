@@ -148,7 +148,7 @@ ShallowWrapper {
 </article>,
           <article
             className="flex items-center justify-center percent button command"
-            onClick={undefined}
+            onClick={[Function]}
 >
             %
 </article>,
@@ -447,7 +447,7 @@ ShallowWrapper {
         "props": Object {
           "children": "%",
           "className": "flex items-center justify-center percent button command",
-          "onClick": undefined,
+          "onClick": [Function],
         },
         "ref": null,
         "rendered": "%",
@@ -593,7 +593,7 @@ ShallowWrapper {
 </article>,
             <article
               className="flex items-center justify-center percent button command"
-              onClick={undefined}
+              onClick={[Function]}
 >
               %
 </article>,
@@ -892,7 +892,7 @@ ShallowWrapper {
           "props": Object {
             "children": "%",
             "className": "flex items-center justify-center percent button command",
-            "onClick": undefined,
+            "onClick": [Function],
           },
           "ref": null,
           "rendered": "%",
@@ -1060,7 +1060,7 @@ ShallowWrapper {
 </article>,
           <article
             className="flex items-center justify-center percent button command"
-            onClick={undefined}
+            onClick={[Function]}
 >
             %
 </article>,
@@ -1359,7 +1359,7 @@ ShallowWrapper {
         "props": Object {
           "children": "%",
           "className": "flex items-center justify-center percent button command",
-          "onClick": undefined,
+          "onClick": [Function],
         },
         "ref": null,
         "rendered": "%",
@@ -1505,7 +1505,7 @@ ShallowWrapper {
 </article>,
             <article
               className="flex items-center justify-center percent button command"
-              onClick={undefined}
+              onClick={[Function]}
 >
               %
 </article>,
@@ -1804,7 +1804,7 @@ ShallowWrapper {
           "props": Object {
             "children": "%",
             "className": "flex items-center justify-center percent button command",
-            "onClick": undefined,
+            "onClick": [Function],
           },
           "ref": null,
           "rendered": "%",

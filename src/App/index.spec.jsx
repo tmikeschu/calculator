@@ -211,6 +211,20 @@ describe("<App />", () => {
     })
   })
 
+  describe(".handlePercentClick", () => {
+    const curry = container.handlePercentClick()
+
+    it("returns a function", () => {
+      expect(curry).toBeInstanceOf(Function)
+    })
+
+    it("sets the stdout to the previous value divided by 100", () => {
+      wrapper.setState({ stdout: "1" })
+      curry()
+      expect(container.state.stdout).toEqual("0.01")
+    })
+  })
+
   describe("when stdout length is greater than 9", () => {
     it("renders calculated font size", () => {
       wrapper.setState({ stdout: "1234567890" })
