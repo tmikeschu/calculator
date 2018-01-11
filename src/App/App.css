@@ -31,7 +31,8 @@
 }
 
 .button:hover,
-.button:focus {
+.button:focus,
+.active {
   background-color: var(--dark-purple);
   color: var(--light);
 }

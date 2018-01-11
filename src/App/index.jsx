@@ -153,7 +153,9 @@ class App extends Component {
     })
 
     const commandCells = COMMANDS.map(({ name, symbol, handler }) => {
-      const className = cx(flexCenterCenter, name, "button", "command")
+      const className = cx(flexCenterCenter, name, "button", "command", {
+        active: this.state.command === name,
+      })
       const onClick = this[`handle${handler}Click`]
       const props = {
         className,
