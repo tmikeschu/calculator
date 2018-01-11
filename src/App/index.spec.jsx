@@ -12,6 +12,7 @@ describe("<App />", () => {
   it("renders without crashing", () => {
     expect(wrapper).toBeTruthy()
     expect(container).toBeTruthy()
+    expect(wrapper).toMatchSnapshot()
   })
 
   describe(".handleNumberClick", () => {
@@ -114,14 +115,14 @@ describe("<App />", () => {
     describe("when readyForNextOperand is true", () => {
       it("just updates the command", () => {
         wrapper.setState({
-          result: "12",
+          result: "8",
           stdout: "8",
           readyForNextOperand: true,
           command: "multiply",
         })
         const curry = container.handleCommandClick("add")
         curry()
-        expect(container.state.result).toEqual("12")
+        expect(container.state.result).toEqual("8")
         expect(container.state.stdout).toEqual("8")
         expect(container.state.command).toEqual("add")
       })
